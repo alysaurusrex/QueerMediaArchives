@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queer Media Archives</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+    <div class="container header-content-ccat">
+      <div>
+        <a href="/">
+        <img alt="Queer-Media-Archives" class="logo" src="/assets/img/z.stroke.logo.svg" width="270px">
+        </a>
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="/archives.html" class="ccat">CARD CATALOGUE</a></li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+  </header>
+  <main class="container">  
+    <div><p>This site is currently under construction. Changes are made live, so check back periodically as we grow. Until our 'search' feature is active, please use ctrl F to find specific titles. Titles are entered in their native language when applicable. Feel free to contact us with media titles you don't see listed and any feedback on your experience navigating the card catalogue as we get ourselves settled. URL at gmail for now. Thank you for existing. We hope you find what you're looking for &#x2764.</p></div>
+    <br>
+    <div class="container__title" >Media Type:</div>
+    <div id="post-media_type" class="filter-container"></div>
+    <div class="container__title">Genre:</div>
+    <div id="post-genre" class="filter-container"></div>
+    <div class="container__title" >Language:</div>
+    <div id="post-language" class="filter-container"></div>
+    <div class="container__title">
+      Results: (<span id="post-count"></span>)
+    </div>
+    <div id="posts-container"></div>
+    <p id="no-results"></p>
+  </main>
+ <hr> 
+</body>
+<footer class="footer">
+  <div class="container">QMA &copy; 2023</div>
+</footer>
+<script src="/global.js"></script>
+</html>
